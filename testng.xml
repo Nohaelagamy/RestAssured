@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="APIURL" value="https://pay2.foodics.dev/cp_internal/login"></parameter>
+	
+<test name="Test Login">
+		
+	<classes>
+			<class name="Login" />
+	</classes>
+	
+</test> <!-- Test -->
+</suite> <!-- LoginSuite -->

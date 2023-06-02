@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3545" started-at="2023-05-29T15:28:59Z" finished-at="2023-05-29T15:29:02Z">
+    <groups>
+    </groups>
+    <test name="Test Login" duration-ms="3545" started-at="2023-05-29T15:28:59Z" finished-at="2023-05-29T15:29:02Z">
+      <class name="Login">
+        <test-method status="PASS" signature="test_01(java.lang.String)[pri:0, instance:Login@3ffc5af1]" name="test_01" duration-ms="3545" started-at="2023-05-29T17:28:59Z" finished-at="2023-05-29T17:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pay2.foodics.dev/cp_internal/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+      </class> <!-- Login -->
+    </test> <!-- Test Login -->
+  </suite> <!-- Suite -->
+</testng-results>
